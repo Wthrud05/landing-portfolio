@@ -1,0 +1,148 @@
+@media only screen and (max-width: 1200px) {
+  .wrapper {
+    max-width: 90%;
+  }
+
+  .skills-cont {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-img {
+    margin-bottom: 30px;
+  }
+
+  .portfolio-cont {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .portfolio-left > p {
+    margin-bottom: 30px;
+  }
+
+  .portfolio .wrapper > h4 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .opacity {
+    padding-top: 30px;
+  }
+
+  .header-bot > h1 {
+    font-size: 50px;
+  }
+
+  .wrapper {
+    max-width: 75%;
+    text-align: center;
+  }
+
+  .header-bot {
+    text-align: center;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .nav-close {
+    display: block;
+  }
+
+  .nav-list {
+    padding-top: 100px;
+    flex-direction: column;
+    justify-content: center;
+    background: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 1;
+    transform: translate(-100%, 0px);
+  }
+
+  .nav-list.active {
+    transform: translate(0, 0);
+  }
+
+  .nav-list > li {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+
+  .nav-list > li > a {
+    font-size: 24px;
+  }
+
+  .skills-overview {
+    max-width: 80%;
+    text-align: left;
+  }
+
+  .skills-overview > div > ul {
+    font-size: 14px;
+  }
+
+  .img-cont {
+    grid-template-columns: 250px 150px;
+  }
+
+  .img-left {
+    grid-template-rows: 173px 84px;
+  }
+
+  .img-right {
+    grid-template-rows: 84px 173px;
+  }
+
+  .get-in-touch_cont {
+    flex-wrap: wrap;
+  }
+
+  .contact-data {
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .wrapper {
+    max-width: none;
+  }
+
+  .skills-overview > div > ul {
+    font-size: 12px;
+  }
+
+  .skills-img {
+    width: 280px;
+    height: 270px;
+  }
+
+  .img-cont {
+    grid-template-columns: 180px 120px;
+  }
+
+  .img-left {
+    grid-template-rows: 123px 74px;
+  }
+
+  .img-right {
+    grid-template-rows: 74px 123px;
+  }
+
+  .portfolio-left > p {
+    margin-bottom: 50px;
+  }
+
+  .get-in-touch_cont {
+    justify-content: space-around;
+  }
+}
