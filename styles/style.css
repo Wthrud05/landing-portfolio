@@ -55,7 +55,7 @@ a[href*='#contact']::after {
 /* header */
 
 .header {
-  background-image: url(https://s3-alpha-sig.figma.com/img/0b96/a50e/b2a75cd5349656b37f5cc91d5c89d6a2?Expires=1663545600&Signature=KCAVu6OQrmq68oGUIWNbMDjLJkTsmPyQSyj8GGusSduT~RsoLpbV3Y66Zq9gv-zKo8M9c50UaQP3hdZ4y9Iv54yCDTNo07rRKgVspalVjB~XTBRTB7cNvPQosWxDeEsfyTIKEuOxg83BhFhR3nYxEOXfrjsTq~PAXOc7olN31QAgqUQlAG-I78m~zJp4aeAOFXmU2JHvUsONCICpWA1YoTkO6Sp~m2OgDxFvPY7WpeIdMTnkbI54nNHoOmSUbSy~U99GGkuZ76NwDK2vu5nh3D3nKIfqDBSvhePCQfqcoULKKVUk-bRwFxtwxGd7uxXp3PRvaDoAQdvLnAEwKBYhjw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  background-image: url('../assets/header_image.jpg');
   background-size: cover;
   background-position: center;
   color: #fff;
